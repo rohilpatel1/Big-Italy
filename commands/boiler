@@ -1,0 +1,13 @@
+const { colors } = require('../config/config.json');
+const randomizer = require('./helpers/randomizer');
+
+const { MessageEmbed } = require('discord.js');
+
+module.exports = {
+	name: "",
+	description: "",
+	active: true,
+	run: (message, args) => {
+		message.reply('wdhdhd');
+	}
+}
